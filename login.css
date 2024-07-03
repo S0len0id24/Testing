@@ -1,0 +1,112 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(193, 151, 44);
+    padding: 19px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+#website{
+    font-family: ('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    font-size: 25px;
+    font-weight:bold;
+    color: whitesmoke;
+}
+
+.header>nav>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    margin-right: 15px;
+   
+}
+
+.header>nav>a:hover{
+    text-decoration: underline;
+    color: black;
+    font-size: 19px;
+}
+
+.background-image {
+    background: url('https://png.pngtree.com/background/20230618/original/pngtree-soccer-field-and-stadium-in-3d-rendering-picture-image_3752844.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    filter: brightness(0.6);
+}
+
+.login_page{
+    position: absolute;
+    color: white;
+    bottom: 30%;
+    left: 40%;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    padding : 30px 40px 40px 40px;
+    background-color: rgba(13, 13, 13, 0.197);
+}
+
+.text{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 19px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+.submit {
+    text-align: center;
+    border: none;
+    color: #fff;
+    margin: 1rem 0;
+    font-size: 18px;
+    padding-left: 120px;
+    padding-right: 120px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5rem;
+    height: 34px;
+    background: linear-gradient(to right, red, yellow);
+}
+
+#email{
+    width: 280px;
+    height: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+
+#password{
+    width: 280px;
+    height: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+
+.text_1>p:hover{
+    text-decoration: underline;
+}
+
+.lastpart{
+    display: flex;
+    margin-left: 50px;
+}
+
+.signup>p:hover{
+    text-decoration: underline;
+}

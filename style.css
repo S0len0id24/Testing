@@ -1,0 +1,118 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 19px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#website {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.header > nav > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    margin-right: 15px;
+}
+
+.header > nav > a:hover {
+    text-decoration: underline;
+    color: black;
+    font-size: 19px;
+}
+
+.background-image {
+    background: url('https://e0.365dm.com/23/12/2048x1152/skysports-transfers-transfer-rumours_6386408.jpg?20231208113555') no-repeat center center/cover;
+    position: absolute;
+    top: 67px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(0.8);
+}
+
+.part{
+    margin-top: 70.80%;
+}
+
+.player-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+    padding: 30px;
+    
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    width: 220px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.profile-picture {
+    position: relative;
+    width: 100%;
+    height: 310px;
+}
+
+.profile-picture img {
+    width: 101%;
+    height: 109%;
+    display: block;
+    position: absolute;
+    transition: opacity 0.5s;
+}
+
+.profile-picture img.back {
+    opacity: 0;
+}
+
+.profile-picture:hover img.back {
+    opacity: 1;
+}
+
+.profile-picture:hover img:not(.back) {
+    opacity: 0;
+}
+
+.info {
+    padding: 13px;
+}
+
+.info h2 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+

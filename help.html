@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester United Official Website</title>
+</head>
+<body>
+    <a href="../index.html" >Home</a>  |
+    <a href="about.html">About</a>  |
+    <a href="contact.html">Contact</a>  |
+    <a href="help.html">Help</a>   |
+    <a href="shop.html">Shop With Us</a>
+    <br>
+    <br>
+    <img src="https://png.pngtree.com/png-vector/20221121/ourmid/pngtree-need-help-with-question-mark-speech-bubble-template-vector-design-png-image_6472531.png" alt="This is Help page." title=""It is about help ,viewers.>
+    
+    <p> This is our Help page.</p>
+
+    <input type="submit" id="b1">
+    <label for="b1">press</label>
+
+    <h1 id="d"></h1>
+    <script>
+        let b1 = document.getElementById("b1");
+        let h = document.getElementById("d");
+        b1.onclick = function () {
+            h.textContent = "What Can I help You!";
+        }
+    </script>
+</body>
+</html>
